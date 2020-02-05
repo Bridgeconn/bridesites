@@ -1,0 +1,115 @@
+.bton:after,
+blockquote.pull-right .small:before,
+blockquote.pull-right footer:before,
+blockquote.pull-right small:before {
+	content: ''
+}
+
+.bton,
+.nav-social .nav-social-divider,
+.site-portfolio-item:hover .work-img,
+.work-img {
+	overflow: hidden
+}
+
+.bton .icon,
+.bton .icon i {
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.bton {
+	border-radius: 0;
+	border: 1px solid #fd680f;
+	color: #fd680f;
+	display: inline-block;
+	margin: 0 .25em;
+	padding: 24px 60px 24px 16px;
+	position: relative;
+	text-decoration: none;
+	line-height: 1
+}
+
+.bton .bton-content {
+	font-size: 1em;
+	line-height: 1.2;
+	padding: 0 26px;
+	position: relative;
+	right: 0;
+	transition: right .3s ease;
+	display: block;
+	text-align: left
+}
+
+.bton .icon,
+.bton:after {
+	position: absolute;
+	right: 0
+}
+
+.bton .icon {
+	border-left: 1px solid #fd680f;
+	text-align: center;
+	transition: all .3s ease;
+	width: 58px;
+	height: 70%
+}
+
+.bton .icon i {
+	position: relative
+}
+
+.bton:after {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fd680f;
+	opacity: 0;
+	transition: opacity .3s ease
+}
+
+.click-menu,
+.hamburger {
+	position: absolute;
+	left: 50%
+}
+
+.bton:hover .bton-content {
+	right: 100%
+}
+
+.bton:hover .icon {
+	border-left: 0;
+	font-size: 1.8em;
+	width: 100%
+}
+
+.bton:hover:after {
+	opacity: .2
+}
+
+.bton.bton-alt-color {
+	border-color: #ccc;
+	color: #ccc
+}
+
+.bton.bton-alt-color .icon {
+	border-left-color: #ccc
+}
+
+.bton.bton-alt-color:after {
+	background-color: #ccc
+}
+
+.bton.bton-main-color {
+	border-color: #FFF;
+	color: #FFF
+}
+
+.bton.bton-main-color .icon {
+	border-left-color: #FFF
+}
+
+.bton.bton-main-color:after {
+	background-color: #FFF
+}
