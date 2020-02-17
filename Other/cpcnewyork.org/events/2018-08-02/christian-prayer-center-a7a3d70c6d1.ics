@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Christian Prayer Center - ECPv4.6.19//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Christian Prayer Center
+X-ORIGINAL-URL:http://cpcnewyork.org
+X-WR-CALDESC:Events for Christian Prayer Center
+BEGIN:VEVENT
+DTSTART;TZID=UTC+0:20180802T080000
+DTEND;TZID=UTC+0:20180802T223000
+DTSTAMP:20200217T101821
+CREATED:20180731T060133Z
+LAST-MODIFIED:20180731T062146Z
+UID:2770-1533196800-1533249000@cpcnewyork.org
+SUMMARY:Bus Trip to Lancaster “Jesus “
+DESCRIPTION:
+URL:http://cpcnewyork.org/event/bus-trip-to-lancaster-jesus/
+LOCATION:South Central Pennsylvania\, Armenia
+ATTACH;FMTTYPE=image/png:http://cpcnewyork.org/wp-content/uploads/2018/07/A-Daytrip-to-Lancaster.png
+END:VEVENT
+END:VCALENDAR

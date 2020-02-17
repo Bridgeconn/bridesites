@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Christian Prayer Center - ECPv4.6.19//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Christian Prayer Center
+X-ORIGINAL-URL:http://cpcnewyork.org
+X-WR-CALDESC:Events for Christian Prayer Center
+END:VCALENDAR
